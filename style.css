@@ -1,0 +1,123 @@
+/* 
+    Created on : 6.10.2020, 9:17:58
+    Author     : Monika
+*/
+
+* {
+    box-sizing: border-box;
+    position: relative;
+}
+
+body {
+    font-weight: 400;
+    line-height: 1.8em;
+    background-color: white;
+    background-size: cover;
+}
+
+.informace {
+    color: #777;
+    padding-left: 0.5em;
+}
+.podrobne{
+    color: #777;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 400;
+    margin-top: -1em;
+    margin-left: 2em;
+    padding-left: 2em;
+}
+
+h3 {
+    font-family: monospace;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #000;
+}
+
+h4{
+    color: #000;
+    font-family: Arial;
+    font-weight: 400;
+    margin-left: 2em;
+    padding-left: 2em;
+    margin-top: -0.5em;
+}
+
+.hlavni_blok {
+    display: block;
+    float: left;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2%;
+    background-color: #fff;
+    box-shadow: 6px 10px 28px 0px rgba(0,0,0,0.4);
+}
+header {
+    height: 13em;
+    background-color: #333333;
+    color: #fff;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    margin-bottom: -3%;
+    box-shadow: 6px 10px 28px 0px rgba(0,0,0,0.4);
+}
+.jmeno {
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    width: 62%;
+    margin-left: 38%;
+    padding-top: 10%;
+    text-transform: uppercase;    
+    text-align: center;
+    font-family: monospace;
+}
+
+.postrani_blok {
+    display: block;
+    float: left;
+    margin-left: 5%;
+    margin-top: -10%;
+    width: 30%;
+    color:#fff;
+    background-color: #65d3d3;
+    padding: 8% 2.5% 2.5%;
+    padding-bottom: 10%;
+    box-shadow: 6px 10px 28px 0px rgba(0,0,0,0.38);
+}
+
+.postrani-nadpis {
+    font-family: monospace;
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    margin: 20% auto 8%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+}
+.vycet {
+    padding-left: 10%;
+    margin-bottom: 5%;
+    color: #000;
+}
+.blok_obsah {
+    margin-top: 3%;
+    margin-left: 40%;
+    width: 55%;
+    padding-bottom: 2em;
+}
+
+.nadpis {
+    background-color: #ddd;
+    width: 100%;
+    max-width: 880px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    line-height: 1.5em;
+}
